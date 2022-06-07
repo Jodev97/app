@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <h1 style="margin-top: 90px; margin-bottom: 40px">Events</h1>
+  <div class="container mt-5">
+    <h2 class="mb-2">Events</h2>
     <h6>Lorem ipsum, dolor sit.</h6>
     <div class="row">
       <div class="card" style="width: 18rem">

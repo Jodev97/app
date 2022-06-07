@@ -1,7 +1,7 @@
 <template>
   <div id="HomeView" class="container">
     <section class="my-5" style="min-height: 250px">
-      <h2 class="row my-5">CHAMBER NEWS</h2>
+      <h2 class="row my-5">FEATURED NEWS</h2>
       <CCard2 />
     </section>
     <section class="container">
@@ -14,9 +14,9 @@
     <section class="my-5">
       <h2 class="row my-5">CHAMBER NEWS</h2>
       <div class="row">
-        <cCard1 image="bg_1.png" class="col-4" />
-        <cCard1 image="bg_2.jpg" class="col-4" />
-        <cCard1 image="bg_2.jpg" class="col-4" />
+        <cCard1 image="bg_3.jpg" class="col-4" />
+        <cCard1 image="bg_4.jpg" class="col-4" />
+        <cCard1 image="bg_3.jpg" class="col-4" />
       </div>
     </section>
   </div>
