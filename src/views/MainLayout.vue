@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container bg-ligth">
     <div class="row">
       <div class="col-lg-9 container">
         <slot name="content"></slot>

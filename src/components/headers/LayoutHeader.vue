@@ -23,7 +23,7 @@ export default {
 <style lang="scss">
 #main-header {
   min-height: 500px;
-  background-image: url("../../assets/banner1.jpg");
+  background-image: url("@/assets/bg_1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
