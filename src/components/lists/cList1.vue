@@ -1,5 +1,6 @@
 <template>
   <div id="cList1" class="container">
+    <h2>Events</h2>
     <div class="list-group">
       <button
         type="button"
