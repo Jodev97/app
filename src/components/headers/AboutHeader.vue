@@ -1,6 +1,6 @@
 <template>
   <div id="aboutHeader" class="container position-absolute">
-    <h2 class="row bg-light w-25">About us</h2>
+    <h2 class="row bg-light w-25">{{ $route.name }}</h2>
   </div>
 </template>
 
@@ -13,6 +13,7 @@ export default {};
   bottom: 0;
   right: 4em;
   h2 {
+    text-transform: uppercase;
   }
 }
 </style>

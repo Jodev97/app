@@ -69,12 +69,12 @@ export default {
     align-items: flex-end;
     background-size: cover;
     background-position: center;
-    box-shadow: 0 0 5em -1em black;
+    box-shadow: 0 3px 7px -1px #0000001a;
     transition: all, var(--transition-time);
     position: relative;
     overflow: hidden;
-    border: 2px solid #084298c4;
     text-decoration: none;
+    border-radius: 0;
   }
 
   .card:hover {
@@ -101,7 +101,6 @@ export default {
   .card .tags .tag {
     font-size: 0.75em;
     background: rgba(255, 255, 255, 0.5);
-    border-radius: 0.3rem;
     padding: 0 0.5em;
     margin-right: 0.5em;
     line-height: 1.5em;
@@ -128,7 +127,6 @@ export default {
     content: "";
     transform: scale(0);
     transform-origin: top left;
-    border-radius: 50%;
     position: absolute;
     left: -50%;
     top: -50%;

@@ -7,7 +7,7 @@
             <img src="@/assets/logo.png" width="150" height="150" alt="" />
           </router-link>
         </div>
-        <div class="col d-flex align-items-center justify-content-end">
+        <div class="col d-flex align-items-center justify-content-center">
           <div class="row">
             <i class="col lab la-facebook-f"></i>
             <i class="col lab la-linkedin-in"></i>
