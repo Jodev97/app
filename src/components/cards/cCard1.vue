@@ -62,7 +62,7 @@ export default {
 
   .card {
     font-family: "Heebo";
-    height: 15em;
+    height: 18em;
     font-size: 1.5em;
     color: white;
     padding: 1em;
