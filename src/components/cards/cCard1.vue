@@ -12,14 +12,13 @@
         }"
       >
         <div>
-          <h1>HTML Syntax</h1>
+          <h1 style="margin-top: 13px">{{ title }}</h1>
           <p>
-            The syntax of a language is how it works. How to actually write it.
-            Learn HTML syntax…
+            {{ content }}
           </p>
-          <div class="date">6 Oct 2017</div>
+          <div class="date">{{ date }}</div>
           <div class="tags">
-            <div class="tag">READ MORE</div>
+            <div class="tag">{{ tag }}</div>
           </div>
         </div>
       </a>
@@ -33,6 +32,8 @@ export default {
     title: String,
     image: String,
     tag: String,
+    content: String,
+    date: String,
   },
 };
 </script>
