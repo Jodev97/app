@@ -3,7 +3,7 @@
     <div class="card-grid-space">
       <a
         class="card"
-        href="https://codetheweb.blog/2017/10/06/html-syntax/"
+        href="#"
         :style="{
           'background-image':
             'linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(' +
