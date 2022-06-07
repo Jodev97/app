@@ -1,11 +1,17 @@
 <template>
-  <div class="row">
-    <h2>NEWS & ACTIVITIES</h2>
+  <div class="container mt-5">
+    <cCard4 />
   </div>
 </template>
 
 <script>
-export default {};
+import cCard4 from "../components/cards/cCard4.vue";
+
+export default {
+  components: {
+    cCard4,
+  },
+};
 </script>
 
 <style></style>

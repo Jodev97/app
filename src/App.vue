@@ -8,14 +8,19 @@
     <!-- BODY -->
     <main class="container mt-3">
       <actions-nav></actions-nav>
+
       <main-layout>
-        <template v-slot:content> <router-view /> </template>
+        <template v-slot:content>
+          <Transition name="slide-fade">
+            <router-view />
+          </Transition>
+        </template>
         <template v-slot:sidebarRigth> <c-events /> </template>
       </main-layout>
     </main>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="mt-5">
       <cFooter1 />
     </footer>
   </div>
@@ -33,5 +38,18 @@ export default {
 </script>
 <style lang="scss">
 #app {
+  .slide-fade-enter-active {
+    transition: all 0.3s ease-out;
+  }
+
+  .slide-fade-leave-active {
+    transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+  }
+
+  .slide-fade-enter-from,
+  .slide-fade-leave-to {
+    transform: translateX(20px);
+    opacity: 0;
+  }
 }
 </style>

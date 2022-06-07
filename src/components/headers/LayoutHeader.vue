@@ -1,9 +1,11 @@
 <template>
   <section id="main-header" class="container-flux position-relative">
     <main-nav></main-nav>
-    <!-- content -->
-    <MainHeader v-if="$route.name == 'home'" />
-    <AboutHeader v-else />
+
+    <Transition name="slide-fade">
+      <MainHeader v-if="$route.name == 'home'" />
+      <AboutHeader v-else />
+    </Transition>
   </section>
 </template>
 

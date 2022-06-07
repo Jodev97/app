@@ -5,8 +5,7 @@ body {
 ::before,
 ::after {
   box-sizing: border-box;
-
-  p {
-    text-align: justify;
-  }
+}
+p {
+  text-align: justify;
 }
