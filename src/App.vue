@@ -9,7 +9,7 @@
     <main class="container mt-3">
       <main-layout>
         <template v-slot:content> <router-view /> </template>
-        <template v-slot:sidebarRigth> <cList1 /> </template>
+        <template v-slot:sidebarRigth> <c-events /> </template>
       </main-layout>
     </main>
 
@@ -22,11 +22,11 @@
 <script>
 import LayoutHeader from "@/components/headers/LayoutHeader.vue";
 import MainLayout from "@/views/MainLayout.vue";
-import cList1 from "./components/lists/cList1.vue";
 import cFooter1 from "./components/footers/cFooter1.vue";
+import CEvents from "./components/cEvents.vue";
 
 export default {
-  components: { LayoutHeader, MainLayout, cList1, cFooter1 },
+  components: { LayoutHeader, MainLayout, cFooter1, CEvents },
 };
 </script>
 <style lang="scss">
