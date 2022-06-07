@@ -1,5 +1,5 @@
 <template>
-  <section id="main-header" class="container-flux">
+  <section id="main-header" class="container-flux position-relative">
     <main-nav></main-nav>
     <!-- content -->
     <MainHeader v-if="$route.name == 'home'" />
