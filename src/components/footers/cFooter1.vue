@@ -66,6 +66,7 @@ export default {};
   background: #073677;
   .container {
     height: 400px;
+
     .rowtop {
       border-bottom: 2px solid rgb(209, 209, 189);
     }
