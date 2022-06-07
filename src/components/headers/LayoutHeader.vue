@@ -3,7 +3,7 @@
     <main-nav></main-nav>
     <!-- content -->
     <MainHeader v-if="$route.name == 'home'" />
-    <AboutHeader v-if="$route.name == 'about'" />
+    <AboutHeader v-else />
   </section>
 </template>
 

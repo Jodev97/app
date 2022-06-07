@@ -1,5 +1,5 @@
 <template>
-  <div id="HomeView" class="row">
+  <div id="HomeView" class="container">
     <section class="my-5" style="min-height: 250px">
       <h2 class="row my-5">CHAMBER NEWS</h2>
       <CCard2 />
