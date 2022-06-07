@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="row">
+  <div id="about" class="container mt-3">
     <h3>History</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
@@ -98,7 +98,6 @@
     }
     p {
       color: white;
-      text-align: justify;
     }
   }
 }
