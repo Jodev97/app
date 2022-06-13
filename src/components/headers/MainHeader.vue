@@ -5,7 +5,7 @@
     style="min-height: 300px"
   >
     <div class="row w-100" style="display: flex; justify-content: space-evenly">
-      <div class="col-lg-4 d-flex align-items-center">
+      <div class="col-lg-4 col-sm-12 d-flex align-items-center">
         <div class="card w-100" style="background: #f7c516ed">
           <div class="card-body">
             <h1 class="card-title" style="font-weight: bold; color: #073677">
@@ -23,14 +23,14 @@
                 />
               </div>
 
-              <button type="submit" class="btn btn-primary mb-2 w-100 m-0">
+              <button type="submit" class="btn btn-primary mb-2 w-100 m-0 mt-3">
                 search <i class="las la-search"></i>
               </button>
             </form>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 d-flex align-items-center">
+      <div class="col-lg-4 d-flex align-items-center card2">
         <div class="card w-100" style="background: #f7c516ed">
           <div class="card-body">
             <!-- <h5 class="card-title" style="color: #073677">October 13th 2021</h5> -->
@@ -50,4 +50,12 @@
 export default {};
 </script>
 
-<style></style>
+<style lang="scss">
+#MainHeader {
+  @media screen and(max-width:600px) {
+    .card2 {
+      display: none !important;
+    }
+  }
+}
+</style>

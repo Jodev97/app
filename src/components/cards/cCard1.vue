@@ -6,7 +6,7 @@
         href="#"
         :style="{
           'background-image':
-            'linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(' +
+            'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),url(' +
             require(`@/assets/${image}`) +
             ')',
         }"

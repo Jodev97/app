@@ -12,6 +12,13 @@ export default {};
 #aboutHeader {
   bottom: 0;
   right: 4em;
+  @media screen and (max-width: 600px) {
+    right: -1em;
+    h2 {
+      width: 100% !important;
+      font-size: 32px;
+    }
+  }
   h2 {
     text-transform: uppercase;
   }

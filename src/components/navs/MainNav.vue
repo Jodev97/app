@@ -18,8 +18,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbar">
-        <div class="wrap row mb-2">
-          <div class="search">
+        <div class="w-100 row mb-2 justify-content-end">
+          <div class="search col-lg-3 col-sm-5">
             <input
               type="text"
               class="searchTerm"
@@ -79,7 +79,6 @@ export default {};
     }
   }
   .search {
-    width: 100%;
     position: relative;
     display: flex;
   }
@@ -113,6 +112,12 @@ export default {};
   .wrap {
     position: relative;
     transform: translate(100%, 0);
+    @media screen and (max-width: 600px) {
+      transform: translate(50%, 0);
+      .search {
+        width: 50%;
+      }
+    }
   }
 }
 </style>

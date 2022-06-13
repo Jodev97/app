@@ -9,9 +9,9 @@
         </div>
         <div class="col d-flex align-items-center justify-content-center">
           <div class="row">
-            <i class="col lab la-facebook-f"></i>
-            <i class="col lab la-linkedin-in"></i>
-            <i class="col lab la-twitter"></i>
+            <i class="col-lg-4 lab la-facebook-f"></i>
+            <i class="col-lg-4 lab la-linkedin-in"></i>
+            <i class="col-lg-4 lab la-twitter"></i>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default {};
 #cFooter1 {
   background: #073677;
   .container {
-    height: 500px;
+    min-height: 500px;
 
     .rowtop {
       border-bottom: 2px solid rgb(209, 209, 189);
@@ -100,6 +100,11 @@ export default {};
       text-align: center;
       &:hover {
         background: white;
+      }
+      @media screen and (max-width: 600px) {
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
       }
     }
   }

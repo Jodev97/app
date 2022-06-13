@@ -2,18 +2,18 @@
   <div class="container mt-5">
     <h2 class="mb-2">Events</h2>
     <h6>Lorem ipsum, dolor sit.</h6>
-    <div class="row">
-      <div class="card" style="width: 18rem">
+    <div class="row mt-2">
+      <div class="card w-100">
         <img src="@/assets/bg_3.jpg" class="card-img-top" />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">New city</h5>
           <h6 class="card-text">Some quick example text to</h6>
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="card" style="width: 18rem; margin-top: 30px">
+    <div class="row mt-2 w-100" style="margin-left: 0">
+      <div class="card w-100">
         <div class="card-body">
           <h5 style="font-weight: bold">
             <i class="las la-angle-right" style="color: red"></i>Stay informed?
@@ -22,16 +22,14 @@
             Want to stay informed on our latest news/events? Enter your e-mail
             address here.
           </h6>
-          <form action="" class="form-control stacked">
+          <form action="" class="">
             <input
               type="text"
               name="subscribe-box"
               placeholder="Email"
-              class="input-text"
+              class="form-control w-100"
             />
-            <button class="btn btn-primary" style="margin-top: 15px">
-              Suscribirse
-            </button>
+            <button class="btn btn-primary w-100">Suscribirse</button>
           </form>
         </div>
       </div>

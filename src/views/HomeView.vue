@@ -9,7 +9,7 @@
       <div class="row">
         <cCard1
           image="bg_1.png"
-          class="col-lg-6 col-sm-12"
+          class="col-lg-6 col-sm-12 col-md-6 mt-4"
           title="CHAMBER WEBINAR SERIES JULY 2021"
           content="Willemstad­– Curaçao Chamber of Commerce & Industry continues to
                 support (potential) entrepreneurs by offering free webinar
@@ -20,7 +20,7 @@
         />
         <cCard1
           image="bg_2.jpg"
-          class="col-lg-6 col-sm-12"
+          class="col-lg-6 col-sm-12 col-md-6 mt-4"
           title="CHAMBER WEBINARS SERIES APRIL 2021"
           content="Willemstad– Curaçao Chamber of Commerce & Industry continues to support potential entrepreneurs during the pandemic and lockdown by offering free webinar series."
           tag="READ MORE"
@@ -29,30 +29,27 @@
       </div>
     </section>
     <section class="my-5">
-      <h2 class="row my-5">
-        <i class="las la-angle-right" style="color: red; width: 6%"></i
-        >HIGHLIGHTS
-      </h2>
+      <h2 class="row my-5">HIGHLIGHTS</h2>
       <div class="row">
         <cCard1
-          image="magazine_4.png"
-          class="col-4"
+          image="bg_3.jpg"
+          class="col-lg-4 col-sm-12 col-md-6 mt-4"
           title="BUSINESS INFO GUIDE"
           content="Curaçao Information Guide (B.I.G.) is the most complete source of 
           information for companies and individuals seeking to do business in and through Curaçao..."
           tag="READ MORE"
         />
         <cCard1
-          image="curacao.png"
-          class="col-4"
+          image="bg_4.jpg"
+          class="col-lg-4 col-sm-12 col-md-6 mt-4"
           title="ALL ABOUT CURAÇAO"
           content="Curaçao is located approximately 35 miles off the northwestern coast of Venezuela. 
           The island is about 444 sq."
           tag="READ MORE"
         />
         <cCard1
-          image="ec.png"
-          class="col-4"
+          image="bg_5.jpg"
+          class="col-lg-4 col-sm-12 col-md-6 mt-4"
           title="TRAINING & ADVICE"
           content="Especially for the Small Business we have Empresa Chiki. We provide training and advice 
           for everyone. Check out the information and training schedule."

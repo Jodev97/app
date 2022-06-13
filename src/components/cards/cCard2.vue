@@ -1,18 +1,23 @@
 <template>
   <div id="cCard2" class="container">
     <div class="blog-posts">
-      <div class="post featured">
-        <a href="#">
+      <div>
+        <a href="#" class="row">
           <div
-            class="image"
-            style="background-image: url(https://unsplash.it/600/400/?random)"
+            class="col-sm-12 col-lg-5 image-card"
+            :style="{
+              'background-image':
+                'linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(' +
+                require(`@/assets/bg_5.jpg`) +
+                ')',
+            }"
           >
             <div class="time">
               <div class="date">04</div>
               <div class="month">APR</div>
             </div>
           </div>
-          <div class="content">
+          <div class="col-sm-12 col-lg-7">
             <h1>
               Multiply created make behold fourth yielding living male very god.
             </h1>
@@ -45,6 +50,30 @@ export default {};
 $blog--height: 200px;
 
 #cCard2 {
+  a {
+    color: #2125298f;
+    text-decoration: none;
+  }
+  .time {
+    background: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    text-align: center;
+    padding: 0.5em 0;
+    color: #444;
+
+    .date {
+      font-weight: bolder;
+    }
+
+    .month {
+      font-size: 0.7rem;
+    }
+  }
+  .image-card {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
   .blog-posts {
     .featured {
       width: 100% !important;
@@ -98,22 +127,6 @@ $blog--height: 200px;
         height: $blog--height;
         background-size: cover;
         background-position: center center;
-
-        .time {
-          background: rgba(255, 255, 255, 0.5);
-          width: 50px;
-          text-align: center;
-          padding: 0.5em 0;
-          color: #444;
-
-          .date {
-            font-weight: bolder;
-          }
-
-          .month {
-            font-size: 0.7rem;
-          }
-        }
       }
 
       .content {
@@ -160,51 +173,5 @@ $blog--height: 200px;
       }
     }
   }
-}
-
-[class^="icon-"]:before {
-  margin-right: 0.5em;
-  color: #3498db;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-@media screen and (max-width: 840px) {
-  .row {
-    display: block !important;
-
-    .post {
-      width: 100%;
-      margin: 0;
-    }
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .content {
-    width: 70% !important;
-  }
-  .image {
-    width: 30% !important;
-  }
-
-  h1 {
-    text-overflow: inherit;
-    white-space: normal;
-  }
-}
-
-/* clearfix */
-.cf:before,
-.cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-
-.cf:after {
-  clear: both;
 }
 </style>
