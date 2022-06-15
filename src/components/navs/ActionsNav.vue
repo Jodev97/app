@@ -4,28 +4,28 @@
     <div class="row">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active"
+          <router-link class="nav-link active" to="/registry"
             ><i class="lab la-wpforms ico"></i> Registry forms
             <i class="las la-angle-right"></i
-          ></a>
+          ></router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link"
+          <routerLink class="nav-link" to="/startingUp"
             ><i class="las la-user-tie ico"></i> Starting a business
             <i class="las la-angle-right"></i
-          ></a>
+          ></routerLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link"
+          <routerLink class="nav-link" to="/proposals-to-dissolve"
             ><i class="las la-users-cog ico"></i> Proposals to Dissolve
             <i class="las la-angle-right"></i
-          ></a>
+          ></routerLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link"
+          <routerLink class="nav-link" to="/contact-organisations"
             ><i class="las la-sitemap ico"></i> Contact organisations
             <i class="las la-angle-right"></i
-          ></a>
+          ></routerLink>
         </li>
       </ul>
     </div>
@@ -33,28 +33,28 @@
     <div class="row">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active"
+          <routerLink class="nav-link active" to="/tariffs"
             ><i class="las la-user-tag ico"></i> Tariffs
             <i class="las la-angle-right"></i
-          ></a>
+          ></routerLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link"
+          <routerLink class="nav-link" to="/business-opportunities"
             ><i class="las la-business-time ico"></i> Business opportunities
             <i class="las la-angle-right"></i
-          ></a>
+          ></routerLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link"
+          <routerLink class="nav-link" to="/business-Magazine"
             ><i class="las la-newspaper ico"></i> Curacao Business Magazine
             <i class="las la-angle-right"></i
-          ></a>
+          ></routerLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link"
+          <routerLink class="nav-link" to="/contact"
             ><i class="lar la-id-badge ico"></i> Contact Chamber
             <i class="las la-angle-right"></i
-          ></a>
+          ></routerLink>
         </li>
       </ul>
     </div>

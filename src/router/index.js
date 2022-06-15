@@ -52,6 +52,96 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "news" */ "../views/NewsView.vue"),
   },
+
+  //routes for Quick Links
+  {
+    path: "/registry",
+    name: "Registry",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/quicklinks/registryForms.vue"
+      ),
+  },
+  {
+    path: "/startingUp",
+    name: "Starting Up",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/quicklinks/startingUp.vue"
+      ),
+  },
+  {
+    path: "/proposals-to-dissolve",
+    name: "Proposals to Dissolve",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/quicklinks/proposalsToDissolve.vue"
+      ),
+  },
+  {
+    path: "/contact-organisations",
+    name: "Contact organisations",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/quicklinks/contactOrganisations.vue"
+      ),
+  },
+  {
+    path: "/tariffs",
+    name: "Tariffs",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/quicklinks/tarifFs.vue"
+      ),
+  },
+  {
+    path: "/business-opportunities",
+    name: "Business opportunities",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/quicklinks/businessOpportunities.vue"
+      ),
+  },
+  {
+    path: "/business-Magazine",
+    name: "Curacao Business Magazine",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/quicklinks/businessMagazine.vue"
+      ),
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(
+        /* webpackChunkName: "about" */ "../components/quicklinks/contacT.vue"
+      ),
+  },
 ];
 
 const router = createRouter({
